@@ -1,0 +1,168 @@
+/* --- eric meyer reset --- */
+
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section, main {
+		display: block;
+	}
+	body {
+		line-height: 1.5;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+/* --- basic styles --- */
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body {
+	background-color: #FDC836;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* --- homepage --- */
+
+	/* header */
+	/* main */
+
+/*	h1 {
+		font-size: 32px;
+		padding-left: 30px;
+		font-family: 'Neucha', cursive;
+	}*/
+
+	.eye-wrapper {
+		display: grid;
+		grid-template-rows: 250px 250px 250px;
+		grid-template-columns: 25% 25% 25% 25%;
+		cursor: pointer;
+	}
+
+	.eye-wrapper-1 {
+		padding-top: 65px;
+		padding-left: 35px;
+	}
+
+	.eye-wrapper-2 {
+		padding-top: 70px;
+		padding-left: 35px;	
+	}
+
+	.eye-wrapper-3 {
+		padding-top: 32.5px;
+		padding-left: 10px;
+	}
+
+	.eye-wrapper-4 {
+		padding-top: 32.5px;
+		padding-left: 15px;
+	}
+
+	.eye-wrapper-5 {
+		padding-top: 55px;
+		padding-left: 55px;
+	}
+
+	.eye-wrapper-6 {
+		padding-top: 75px;
+		padding-left: 125px;
+	}
+
+	.eye-wrapper-7 {
+		padding-top: 25px;
+		padding-left: 62.5px;
+	}
+
+	.eye-wrapper-8 {
+		padding-top: 15px;
+		padding-left: 35px;
+	}
+
+	.eye-wrapper-9 {
+		padding-top: 55px;
+		padding-left: 15px;
+	}
+
+	.eye-wrapper-10 {
+		padding-top: 15px;
+		padding-left: -15px;
+	}
+
+	.eye-wrapper-11 {
+		padding-top: 20px;
+		padding-right: 15px;
+	}
+
+	.eye-wrapper-12 {
+		padding-top: 120px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
